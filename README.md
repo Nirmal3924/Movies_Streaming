@@ -86,27 +86,25 @@ Server	        XAMPP / Localhost
 ---------------------
 Movies_Streaming/
 │
-├── index.php              # Home page (movies display)
-├── login.php              # User login page
-├── register.php           # User registration page
-├── logout.php             # Logout logic
-├── movie.php              # Individual movie details page
-├── player.php             # Video streaming page
+├── index.php        # Home page (movies display)
+├── login.php        # User login page
+├── register.php     # User registration page
+├── logout.php       # Logout logic
+├── movie.php        # Individual movie details page
+├── player.php       # Video streaming page
 │
-├── includes/              # Reusable backend files
-│   ├── db.php             # Database connection
-│   ├── header.php         # Navigation bar
-│   └── footer.php         # Footer section
+├── includes/
+│   ├── db.php       # Database connection
+│   ├── header.php   # Navigation bar
+│   └── footer.php   # Footer section
 │
-├── assets/                # Static files
+├── assets/
 │   ├── css/
 │   ├── js/
 │   └── images/
 │
-├── uploads/               # Movie video files storage
-│
-└── database.sql           # Database structure file
-
+├── uploads/         # Movie video files storage
+└── database.sql     # Database structure file
 
 ⚙️ How to Run
 ---------------
